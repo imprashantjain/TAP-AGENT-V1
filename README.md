@@ -46,35 +46,31 @@ It reduces manual effort by automating research, scoring, and report generation.
 - **YAML**
 - **Custom Scoring Engine**
 
----
-
-## 📁 Project Structure
+## 📂 Project Structure
 working_prashant/
-│── app.py
-│── scraper.py
-│── parser.py
-│── scorer.py
-│── reporter.py
-│── docx_reporter.py
-│── config.yaml
-│── utils.py
-│── requirements.txt
-│── README.md
-│── .gitignore
+├── app.py
+├── scraper.py
+├── parser.py
+├── scorer.py
+├── reporter.py
+├── docx_reporter.py
+├── config.yaml
+├── utils.py
+├── requirements.txt
+├── README.md
+├── .gitignore
 │
 ├── data/
-│   └── (scraped / temp data)
+│ └── (scraped / temp data)
 │
 ├── reports/
-│   └── (generated reports .docx)
+│ └── (generated .docx reports)
 │
 ├── assets/
-│   └── (images / UI files if any)
+│ └── (images / UI files)
 │
 └── .streamlit/
-    └── config.toml
----
-
+└── config.toml
 
 
 ---
